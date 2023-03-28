@@ -1,6 +1,13 @@
 # Housing-Prices-Machine-Learning-Project
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbdIFh1zgSpV6enhk8P5TAKOG3DSaDIw3uiw&usqp=CAU)
 
+Geraldine Longo
+Ekta Jindal
+Robert Hascall
+Chika Okam
+Raymundo Zapien
+Daniel Corral
+
 ## Resources
 [Zillow Housing Data: Home Values "https://www.zillow.com/research/data/"]
 
