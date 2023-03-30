@@ -1,0 +1,2 @@
+# Review the y variable Series
+y[:5]
