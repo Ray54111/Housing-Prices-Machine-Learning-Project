@@ -6,13 +6,13 @@
 * Chika Okam,
 * Raymundo Zapien,
 * Daniel Corral
-## Resources
+## Resources:
 [Zillow Housing Data: Home Values "https://www.zillow.com/research/data/"]
-## Overview
+## Overview:
 Housing prices in California continue to increase as incomes rise, unemployment drops, and industries grow. Like many, our team wants to predict how housing prices will change over the years as we decide where we want to relocate long-term.
-## Objective & Data
+## Objective & Data:
 By analyzing housing market data and trends between 2019-2023, the Housing Price Prediction  will predict whether the housing market will rise or drop in the state of California. For example, clients who are looking for new home to buy or rental/investment property will be able to decide where to buy homes based on the number of bedrooms and neighborhoods comparing the housing price.
-## Technologies
+## Technologies:
 1. Tableau
 2. PostgreSQL
 3. Python
@@ -23,7 +23,7 @@ By analyzing housing market data and trends between 2019-2023, the Housing Price
 8. Pandas
 9. Matplotlib
 10. Seaborn
-## Sourcing the Data
+## Sourcing the Data:
 Our team sourced data from verified site to answer our confirmed analysis questions. We pulled multiple sets with information on housing prices with neighborhood and bedrooms count etc. that will support our overall analysis.
 ## We will answer the following questions with our data:
 1. Given the data available, can we expect housing prices to increase or decrease in the coming months?
@@ -46,7 +46,7 @@ https://public.tableau.com/app/profile/roberth7189/viz/CAHomePrices_168005930569
 2. These historical prices were used as features for predicting our numerical
 target/dependent variable (future price).
 3. Supervised learning models, specifically, Linear Regression using scikit-learn, and a newly-researched model known as Prophet Model were both employed to predict home prices.
-## Regression Model
+## Regression Model:
 1. Initially created a Data Frame of home prices in California from February 2019 to February, 2023
 2. Preprocessing: The data was cleaned (e.g., removing irrelevant rows and columns, and then splitting the data into subsets for training and testing the model (using 75% to 25% split respectively))
 3. Training: Since the aim was to develop a model to predict future home prices, we
@@ -54,7 +54,7 @@ began by training the model to predict February 2023
 4. In preparing the Linear Regression Model, we dropped the previous twelve months data prior to February, 2023, since we wanted to train the model to recognize patterns for prediction.
 Validating: We used a small subset of labeled data (y_test) to compare with the model’s predictions (predicted2023_02_28).
 5. Predicting: If the linear regression model satisfies the relevant metrics such as; the model score, R2, MSE, RMSE, and standard deviation, then it can be used in predicting future home prices.
-## Prophet Prediction Model
+## Prophet Prediction Model:
 Two models were created:
 1. One showed the aggregated city-wide data to predict the estimated home value in the coming 5 years for homeowners/investors knowledge
 2. The other shows what the estimated values are for a 6-month window to show how the market may change within the coming months
